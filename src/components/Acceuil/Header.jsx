@@ -28,7 +28,7 @@ const Header = () => {
       />
       <video
         src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.webm"
-        type="video/mp4"
+        type="video/webm"
         autoPlay
         loop
         muted
