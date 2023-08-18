@@ -8,7 +8,7 @@ const Talk = () => {
           Begin your journey to growth.
         </h1>
         <Link
-          href="mailto:info@em-marketing.ch"
+          href="mailto:infos@em-marketing.ch"
           className="hover:bg-[#3ec25b] transition-all duration-300 uppercase font-bold text-white bg-[#189332] px-7 py-4 rounded  "
         >
           let’s talk

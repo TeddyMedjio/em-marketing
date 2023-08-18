@@ -24,7 +24,15 @@ const Header = () => {
         autoPlay
         loop
         muted
-        className=" object-cover h-screen lg:w-full "
+        className="hidden lg:block object-cover h-screen lg:w-full "
+      />
+      <video
+        src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.webm"
+        type="video/mp4"
+        autoPlay
+        loop
+        muted
+        className=" lg:hidden object-cover h-screen lg:w-full "
       />
     </div>
   );
