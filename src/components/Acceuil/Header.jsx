@@ -19,21 +19,32 @@ const Header = () => {
         </h1>
       </div>
       <video
-        src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.mp4"
+        src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.webm"
         type="video/mp4"
         autoPlay
         loop
         muted
-        className="hidden lg:block object-cover h-screen lg:w-full "
+        className="object-cover h-screen lg:w-full "
       />
-      <video
-        src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.webm"
-        type="video/webm"
+      {/* <video
         autoPlay
         loop
-        muted
-        className=" lg:hidden object-cover h-screen lg:w-full "
-      />
+        playsinline
+        className="object-cover h-screen lg:w-full"
+      >
+        <source
+          src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.webm"
+          type="video/webm"
+        />
+        <source
+          src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.ogv"
+          type="video/ogv"
+        />
+      </video> */}
     </div>
   );
 };
