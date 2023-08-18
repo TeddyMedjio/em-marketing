@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hideMenuNav {
+  display: none;
+}
+.showMenuNav {
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #189332;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-left: 40px;
+  align-items: center;
+  z-index: 50;
+}
+
+.backgound {
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+    150deg,
+    #1b2d91,
+    #1a437d,
+    #1b2d91,
+    #189332 78%,
+    #189332 100%
+  );
+  -webkit-animation: AnimateBG 20s ease infinite;
+  animation: AnimateBG 20s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tableau {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  gap: 0.8rem;
+  grid-auto-flow: dense;
+}
+
+.tab1 {
+  grid-column: auto / span 8;
+}
+
+.tab2 {
+  grid-row: auto / span 2;
+  grid-column: auto / span 8;
+}
+
+.tab3 {
+  grid-column: auto / span 8;
+}
+
+.tab4 {
+  grid-column: auto / span 8;
+}
+
+.tab5 {
+  grid-column: auto / span 8;
+}
+
+.tab6 {
+  grid-column: auto / span 8;
+}
+
+.tab7 {
+  grid-column: auto / span 12;
+}
+
+.tab8 {
+  grid-column: auto / span 4;
+}
+
+.tab9 {
+  grid-column: auto / span 12;
+}
+
+.tab10 {
+  grid-column: auto / span 12;
+}
+
+.tab11 {
+  grid-column: auto / span 8;
+}
+
+.tab12 {
+  grid-column: auto / span 8;
+}
+
+.tab13 {
+  grid-column: auto / span 8;
+}
+
+@media (max-device-width: 767px) {
+  .tab1 {
+    grid-column: auto / span 24;
+  }
+
+  .tab2 {
+    grid-row: auto / span 1;
+    grid-column: auto / span 24;
+  }
+
+  .tab3 {
+    grid-column: auto / span 24;
+  }
+
+  .tab4 {
+    grid-column: auto / span 24;
+  }
+
+  .tab5 {
+    grid-column: auto / span 24;
+  }
+
+  .tab6 {
+    grid-column: auto / span 24;
+  }
+
+  .tab7 {
+    grid-column: auto / span 24;
+  }
+
+  .tab8 {
+    grid-column: auto / span 24;
+  }
+
+  .tab9 {
+    grid-column: auto / span 24;
+  }
+
+  .tab10 {
+    grid-column: auto / span 24;
+  }
+
+  .tab11 {
+    grid-column: auto / span 24;
+  }
+
+  .tab12 {
+    grid-column: auto / span 24;
+  }
+
+  .tab13 {
+    grid-column: auto / span 24;
+  }
+}
+
+/* animate text gradient */
+.animate-gradient {
+  background-size: 300%;
+  -webkit-animation: animatedgradient 6s ease infinite alternate;
+  -moz-animation: animatedgradient 6s ease infinite alternate;
+  animation: animatedgradient 6s ease infinite alternate;
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
