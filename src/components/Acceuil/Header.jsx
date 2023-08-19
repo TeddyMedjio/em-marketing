@@ -19,23 +19,31 @@ const Header = () => {
         </h1>
       </div>
       <video
-        src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.webm"
-        type="video/webm"
         autoPlay
         loop
         muted
-        className="object-cover absolute top-0 h-screen lg:w-full "
+        className="object-cover absolute top-0 h-screen lg:w-full -z-50 "
+        src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.mp4"
+        type="video/mp4"
       >
-        {" "}
         <source
+          autoPlay
+          loop
+          muted
           src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.mp4"
           type="video/mp4"
         />
         <source
+          autoPlay
+          loop
+          muted
           src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.webm"
           type="video/webm"
         />
         <source
+          autoPlay
+          loop
+          muted
           src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.ogv"
           type="video/ogv"
         />
