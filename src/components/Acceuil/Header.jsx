@@ -24,14 +24,23 @@ const Header = () => {
         autoPlay
         loop
         muted
-        className="object-cover h-screen lg:w-full "
-      />
-      {/* <video
-        autoPlay
-        loop
-        playsinline
-        className="object-cover h-screen lg:w-full"
+        className="object-cover absolute top-0 h-screen lg:w-full "
       >
+        {" "}
+        <source
+          src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.webm"
+          type="video/webm"
+        />
+        <source
+          src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.ogv"
+          type="video/ogv"
+        />
+      </video>
+      {/* <video autoPlay loop playsInline className="object-cover h-screen w-full">
         <source
           src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.mp4"
           type="video/mp4"

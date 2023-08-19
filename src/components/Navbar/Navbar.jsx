@@ -9,7 +9,7 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <div className="mx-auto container px-5 pt-5 flex items-center justify-between md:justify-normal fixed md:mix-blend-exclusion z-50 ">
+    <div className=" mx-auto container px-5 pt-5 flex items-center justify-between md:justify-normal sticky top-0 md:mix-blend-exclusion z-50 ">
       <Link href="/">
         <Image src={Logo} height={45} alt="logo emotional marketing" />
       </Link>
@@ -61,14 +61,13 @@ const Navbar = () => {
       {/* mobile menu */}
       <section className="MOBILE-MENU flex md:hidden">
         <div
-          className="HAMBURGER-ICON space-y-2 cursor-pointer bg-[#189332] p-4 rounded-full"
+          className="md:hidden space-y-2 cursor-pointer bg-[#189332] p-4 rounded-full"
           onClick={() => setIsNavOpen((prev) => !prev)}
         >
           <span className="block h-0.5 w-6 rounded bg-white"></span>
           <span className="block h-0.5 w-6 rounded bg-white"></span>
           <span className="block h-0.5 w-6 rounded bg-white"></span>
         </div>
-
         <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
           <div
             className="absolute top-0 right-0 p-8 cursor-pointer"
@@ -89,16 +88,24 @@ const Navbar = () => {
           </div>
           <ul className="flex flex-col items-center justify-between  min-h-[250px] w-full">
             <li className="text-white text-5xl font-inter uppercase w-full py-2">
-              <Link href="/work">Work</Link>
+              <Link href="/work">
+                <span>Work</span>
+              </Link>
             </li>
             <li className="text-white text-5xl font-inter uppercase w-full py-2">
-              <Link href="/services">Services</Link>
+              <Link href="/services">
+                <span>Services</span>
+              </Link>
             </li>
             <li className="text-white text-5xl font-inter uppercase w-full py-2">
-              <Link href="/about">About</Link>
+              <Link href="/about">
+                <span>About</span>
+              </Link>
             </li>
             <li className="text-white text-5xl font-inter uppercase w-full py-2">
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact">
+                <span>Contact</span>
+              </Link>
             </li>
           </ul>
         </div>
