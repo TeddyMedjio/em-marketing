@@ -9,7 +9,7 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <div className=" mx-auto container px-5 pt-5 flex items-center justify-between md:justify-normal sticky top-0 md:mix-blend-exclusion z-50 ">
+    <div className=" mx-auto container px-5 pt-5 flex items-center justify-between md:justify-normal fixed md:mix-blend-exclusion z-50 ">
       <Link href="/">
         <Image src={Logo} height={45} alt="logo emotional marketing" />
       </Link>
