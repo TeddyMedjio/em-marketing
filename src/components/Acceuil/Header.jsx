@@ -23,27 +23,18 @@ const Header = () => {
         loop
         muted
         className="object-cover absolute top-0 h-screen lg:w-full -z-50 "
-        src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.mp4"
+        src="https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e"
         type="video/mp4"
       >
         <source
-          autoPlay
-          loop
-          muted
-          src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.mp4"
+          src="https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e"
           type="video/mp4"
         />
         <source
-          autoPlay
-          loop
-          muted
-          src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.webm"
+          src="https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e"
           type="video/webm"
         />
         <source
-          autoPlay
-          loop
-          muted
           src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.ogv"
           type="video/ogv"
         />
