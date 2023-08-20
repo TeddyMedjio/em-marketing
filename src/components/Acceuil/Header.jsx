@@ -2,6 +2,8 @@ import Image from "next/image";
 import arrow from "../../../public/arrow.svg";
 
 const Header = () => {
+  const videoSource =
+    "https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e";
   return (
     <div className="relative h-screen mx-auto">
       <div className="arrow bottom-20 p-5 bg-white rounded-full opacity-80 z-50 ">
@@ -25,21 +27,9 @@ const Header = () => {
         playsinline
         prefetch="auto"
         className="object-cover absolute top-0 h-screen lg:w-full"
-        src="https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e"
-        type="video/mp4"
       >
-        <source
-          src="https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e"
-          type="video/mp4"
-        />
-        <source
-          src="https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e"
-          type="video/webm"
-        />
-        <source
-          src="https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e"
-          type="video/ogv"
-        />
+        <source src={videoSource} type="video/mp4" />
+        Your browser does not support the video tag.
       </video>
       {/* <video autoPlay loop playsInline className="object-cover h-screen w-full">
         <source
