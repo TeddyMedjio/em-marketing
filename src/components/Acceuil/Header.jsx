@@ -22,8 +22,9 @@ const Header = () => {
         autoPlay
         loop
         muted
-        controls
-        className="object-cover absolute top-0 h-screen lg:w-full  "
+        playsinline
+        prefetch="auto"
+        className="object-cover absolute top-0 h-screen lg:w-full"
         src="https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e"
         type="video/mp4"
       >
