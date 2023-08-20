@@ -4,7 +4,7 @@ import arrow from "../../../public/arrow.svg";
 const Header = () => {
   return (
     <div className="relative h-screen mx-auto">
-      <div className="arrow bottom-20 p-5 bg-white rounded-full opacity-80 ">
+      <div className="arrow bottom-20 p-5 bg-white rounded-full opacity-80 z-50 ">
         <Image
           src={arrow}
           height={45}
@@ -22,7 +22,8 @@ const Header = () => {
         autoPlay
         loop
         muted
-        className="object-cover absolute top-0 h-screen lg:w-full -z-50 "
+        controls
+        className="object-cover absolute top-0 h-screen lg:w-full  "
         src="https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e"
         type="video/mp4"
       >
@@ -35,7 +36,7 @@ const Header = () => {
           type="video/webm"
         />
         <source
-          src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.ogv"
+          src="https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e"
           type="video/ogv"
         />
       </video>
