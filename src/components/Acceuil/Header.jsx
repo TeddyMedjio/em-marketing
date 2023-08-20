@@ -19,8 +19,8 @@ const Header = () => {
         </h1>
       </div>
       <video
-        autoPlay
-        loop
+        autoPlay="autoplay"
+        loop="loop"
         muted
         playsinline
         prefetch="auto"
