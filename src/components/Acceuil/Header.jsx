@@ -21,17 +21,6 @@ const Header = () => {
           <span>and brands for a more</span> <br /> <span>human future</span>
         </h1>
       </div>
-      {/* <video
-        autoPlay
-        loop
-        muted
-        playsinline
-        prefetch="auto"
-        className="object-cover absolute top-0 h-full lg:w-full"
-      >
-        <source src={videoSource} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>  */}
       <video
         autoPlay
         loop

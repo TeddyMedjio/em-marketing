@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link
             href="/work"
             className={
-              router.pathname === "/work" ? "underline" : "hover:underline"
+              router.pathname === "/work" ? "text-green-400" : "hover:underline"
             }
           >
             Work
@@ -30,7 +30,9 @@ const Navbar = () => {
           <Link
             href="/services"
             className={
-              router.pathname === "/services" ? "underline" : "hover:underline"
+              router.pathname === "/services"
+                ? "text-green-400"
+                : "hover:underline"
             }
           >
             Services
@@ -40,7 +42,9 @@ const Navbar = () => {
           <Link
             href="/about"
             className={
-              router.pathname === "/about" ? "underline" : "hover:underline"
+              router.pathname === "/about"
+                ? "text-green-400"
+                : "hover:underline"
             }
           >
             About
@@ -50,7 +54,9 @@ const Navbar = () => {
           <Link
             href="/contact"
             className={
-              router.pathname === "/about" ? "underline" : "hover:underline"
+              router.pathname === "/about"
+                ? "text-green-400"
+                : "hover:underline"
             }
           >
             Contact
