@@ -74,10 +74,10 @@ const Header_Offer = () => {
               Animation
             </h3>
             <p className="text-white mt-5">
-              Bring your brand to life with captivating animations. Whether it's
-              explainer videos, motion graphics, or animated advertisements, our
-              team will deliver visually striking animations that communicate
-              your message effectively.
+              Bring your brand to life with captivating animations. Whether
+              it&apos;s explainer videos, motion graphics, or animated
+              advertisements, our team will deliver visually striking animations
+              that communicate your message effectively.
             </p>
           </div>
           <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
@@ -85,10 +85,10 @@ const Header_Offer = () => {
               Video Shooting & Editing
             </h3>
             <p className="text-white mt-5">
-              Capture your brand's essence with high-quality video production.
-              Our experienced videographers will work closely with you to bring
-              your vision to life, creating compelling videos that engage and
-              resonate with your target audience.
+              Capture your brand&apos;s essence with high-quality video
+              production. Our experienced videographers will work closely with
+              you to bring your vision to life, creating compelling videos that
+              engage and resonate with your target audience.
             </p>
           </div>
           <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
