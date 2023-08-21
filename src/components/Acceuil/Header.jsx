@@ -2,8 +2,6 @@ import Image from "next/image";
 import arrow from "../../../public/arrow.svg";
 
 const Header = () => {
-  const videoSource =
-    "https://firebasestorage.googleapis.com/v0/b/video-200af.appspot.com/o/desktop.mp4?alt=media&token=2ee05965-07ba-4936-b9eb-cc1e81cffc4e";
   return (
     <div className="relative h-screen mx-auto">
       <div className="arrow bottom-20 p-5 bg-white rounded-full opacity-80 z-50 ">
@@ -20,18 +18,25 @@ const Header = () => {
           <span>and brands for a more</span> <br /> <span>human future</span>
         </h1>
       </div>
-      <video
-        autoPlay="autoplay"
-        loop="loop"
+      {/* <video
+        autoPlay
+        loop
         muted
         playsinline
         prefetch="auto"
-        className="object-cover absolute top-0 h-screen lg:w-full"
+        className="object-cover absolute top-0 h-full lg:w-full"
       >
         <source src={videoSource} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
-      {/* <video autoPlay loop playsInline className="object-cover h-screen w-full">
+      </video>  */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="object-cover h-full w-full"
+        poster="https://res.cloudinary.com/rga/video/upload/so_0,q_10/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.jpg"
+      >
         <source
           src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.mp4"
           type="video/mp4"
@@ -44,7 +49,7 @@ const Header = () => {
           src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.ogv"
           type="video/ogv"
         />
-      </video> */}
+      </video>
     </div>
   );
 };
