@@ -1,7 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-import arrow from "../../../public/arrow.svg";
-
 const Header_Services = () => {
   return (
     <div className="relative h-screen mx-auto bg-black ">
@@ -10,7 +6,7 @@ const Header_Services = () => {
         loop
         muted
         playsInline
-        className="object-cover h-full w-full opacity-5"
+        className="object-cover h-full w-full opacity-30"
         poster="https://res.cloudinary.com/rga/video/upload/so_0,q_10/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.jpg"
       >
         <source
