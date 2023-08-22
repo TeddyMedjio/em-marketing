@@ -51,7 +51,7 @@ const About = () => {
           </span>{" "}
           for a more
           <br />
-          human{" "}
+          emotional{" "}
           <span className=" bg-gradient-to-r from-[#1B2D91]  via-blue-500 to-[#189332] text-transparent bg-clip-text animate-gradient">
             future
           </span>

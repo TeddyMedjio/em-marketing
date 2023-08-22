@@ -54,7 +54,7 @@ const Navbar = () => {
           <Link
             href="/contact"
             className={
-              router.pathname === "/about"
+              router.pathname === "/contact"
                 ? "text-green-400"
                 : "hover:underline"
             }
