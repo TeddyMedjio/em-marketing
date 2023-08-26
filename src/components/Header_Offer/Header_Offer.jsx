@@ -4,7 +4,7 @@ const Header_Offer = () => {
   return (
     <div className="backgound">
       <div
-        id="offer"
+        id="ofer"
         className="flex items-center justify-center flex-col pt-24 px-5"
       >
         <h1 className=" font-bold font-heading text-5xl text-white">
