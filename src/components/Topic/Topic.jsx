@@ -3,7 +3,7 @@ import React from "react";
 const Topic = () => {
   return (
     <div className=" bg-[#E7ECF2]">
-      <div className="mx-auto container max-w-6xl py-40">
+      <div className="mx-auto container px-5 lg:px-0 max-w-6xl py-40">
         <h1 className="font-bold uppercase text-6xl py-20">about</h1>
         <h2 className="font-medium text-justify text-xl">
           Welcome to E-Marketing, a first marketing firm nestled in the heart of
