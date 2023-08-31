@@ -18,12 +18,12 @@ const Topic = () => {
           feel. This is the core ethos that guides our every strategy, our every
           campaign. <br /> <br /> At E-Marketing, we recognize that effective
           marketing is about creating meaningful connections, powerful memories,
-          and lasting impressions. It's about leaving an indelible mark in the
-          hearts and minds of your audience. We don't just sell your product or
-          service; we tell your story in a captivating way that resonates with
-          your target market, making your brand unforgettable. <br /> <br /> Our
-          broad range of interconnected services are designed with one goal in
-          mind:{" "}
+          and lasting impressions. It&apos;s about leaving an indelible mark in
+          the hearts and minds of your audience. We don&apos;t just sell your
+          product or service; we tell your story in a captivating way that
+          resonates with your target market, making your brand unforgettable.{" "}
+          <br /> <br /> Our broad range of interconnected services are designed
+          with one goal in mind:{" "}
           <span className="text-[#189332] font-bold">
             to make you stand out in the crowded digital landscape.
           </span>{" "}
@@ -40,10 +40,10 @@ const Topic = () => {
           </span>{" "}
           our team of experts work hand in hand to deliver a cohesive,
           effective, and impactful marketing strategy tailored to your specific
-          needs. Join us on this exciting journey, and let's together create
-          long-lasting, impactful memories that will take your brand to the next
-          level. Trust E-Marketing – where emotions meet marketing. <br />{" "}
-          <br />
+          needs. Join us on this exciting journey, and let&apos;s together
+          create long-lasting, impactful memories that will take your brand to
+          the next level. Trust E-Marketing – where emotions meet marketing.{" "}
+          <br /> <br />
           <span className="text-black font-bold">
             Welcome to the future of marketing. Welcome to E-Marketing.
           </span>
