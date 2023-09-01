@@ -1,8 +1,47 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import profil from "../../../public/img/profil.png";
-import Link from "next/link";
 
 const Contact = () => {
+  const [loading, setLoading] = useState(false);
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    setLoading(true);
+
+    const data = {
+      name: String(event.target.name.value),
+      email: String(event.target.email.value),
+      subject: String(event.target.subject.value),
+      message: String(event.target.message.value),
+    };
+
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+
+    if (response.ok) {
+      alert("Message sent successfully");
+      setLoading(false);
+      // reset the form
+      event.target.name.value = "";
+      event.target.email.value = "";
+      event.target.subject.value = "";
+      event.target.message.value = "";
+    }
+    if (!response.ok) {
+      console.log("Error sending message");
+      setLoading(false);
+    }
+    // console.log(data);
+  }
+
   return (
     <div className=" bg-[#E7ECF2]">
       <div className="mx-auto container px-5 max-w-6xl py-40">
@@ -14,47 +53,55 @@ const Contact = () => {
           </h3>
           <Image src={profil} height="350" alt="image de profil de cyrille" />
         </div>
-        <div className="flex flex-col space-y-2">
-          <label className="flex lg:flex-row flex-col lg:items-center lg:space-x-4 space-y-2 lg:space-y-0">
+        <form onSubmit={handleSubmit} className="flex flex-col space-y-2">
+          <div className="flex lg:flex-row flex-col lg:items-center lg:space-x-4 space-y-2 lg:space-y-0">
             {" "}
             <input
               type="text"
-              name="Name"
+              id="name"
+              required
+              minLength={5}
+              maxLength={150}
+              autoComplete="off"
               placeholder="Name"
               className="flex-1 pl-2 rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-[#189332] focus:ring-3 outline-none sm:text-sm sm:leading-6"
             />
             <input
               type="email"
-              name="email"
-              placeholder="Email"
+              id="email"
               required
+              autoComplete="off"
+              minLength={5}
+              maxLength={150}
+              placeholder="Email"
               className="flex-1 pl-2  rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-[#189332] outline-none sm:text-sm sm:leading-6"
             />
-          </label>
+          </div>
           <input
             type="text"
-            name="Subject"
+            id="subject"
             required
             placeholder="Subject"
             className=" pl-2  rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-[#189332] outline-none sm:text-sm sm:leading-6"
           />
           <textarea
-            id="Contact"
-            name="Message"
+            name="message"
             placeholder="Message"
             required
             rows={5}
+            minLength={10}
+            maxLength={500}
             className="pl-2 block w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-[#189332] outline-none sm:text-sm sm:leading-6"
             defaultValue={""}
           />
-          <Link href="#">
-            <input
-              type="button"
-              value="send"
-              className="bg-[#189332] w-[139px] py-3 rounded-sm text-white uppercase font-semibold cursor-pointer hover:bg-[#1B2D91] transition-all duration-300 ease-in-out"
-            />
-          </Link>
-        </div>
+          <button
+            type="submit"
+            disabled={loading}
+            className=" disabled:bg-slate-400 disabled:text-gray-100 bg-[#189332] w-[139px] py-3 rounded-sm text-white uppercase font-semibold cursor-pointer hover:bg-[#1B2D91] transition-all duration-300 ease-in-out"
+          >
+            send
+          </button>
+        </form>
 
         <h3 className=" uppercase text-[#189332] font-bold leading-6 text-xl mt-20">
           emotional marketing
