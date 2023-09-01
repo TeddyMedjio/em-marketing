@@ -13,7 +13,7 @@ export default async function ContactAPI(req, res) {
   };
 
   const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
+    host: "smtp.hostinger.com",
     port: 465,
     secure: true,
     auth: {
@@ -25,7 +25,7 @@ export default async function ContactAPI(req, res) {
   try {
     const mail = await transporter.sendMail({
       from: user,
-      to: "teddygraphiste@gmail.com",
+      to: "infos@em-marketing.ch",
       replyTo: email,
       subject: `Contact form submission from ${name}`,
       html: `

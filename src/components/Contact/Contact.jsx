@@ -1,21 +1,24 @@
 "use client";
 
 import { useState } from "react";
+import htmr from "htmr";
 import Image from "next/image";
 import profil from "../../../public/img/profil.png";
+import Notification from "../Notification/Notification";
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
+  const [show, setShow] = useState(false);
 
   async function handleSubmit(event) {
     event.preventDefault();
     setLoading(true);
 
     const data = {
-      name: String(event.target.name.value),
-      email: String(event.target.email.value),
-      subject: String(event.target.subject.value),
-      message: String(event.target.message.value),
+      name: event.target.name.value,
+      email: event.target.email.value,
+      subject: event.target.subject.value,
+      message: htmr(event.target.message.value),
     };
 
     const response = await fetch("/api/contact", {
@@ -27,13 +30,18 @@ const Contact = () => {
     });
 
     if (response.ok) {
-      alert("Message sent successfully");
+      // alert("Message sent successfully");
       setLoading(false);
+      setShow(true);
       // reset the form
       event.target.name.value = "";
       event.target.email.value = "";
       event.target.subject.value = "";
       event.target.message.value = "";
+
+      setTimeout(function () {
+        setShow(false);
+      }, 5000);
     }
     if (!response.ok) {
       console.log("Error sending message");
@@ -125,6 +133,7 @@ const Contact = () => {
           </p>
         </div>
       </div>
+      {show && <Notification message="Message sent successfully" />}
     </div>
   );
 };
