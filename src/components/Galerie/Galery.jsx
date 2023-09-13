@@ -1,8 +1,17 @@
 import Image from "next/image";
 import picture from "../../../public/img/picture.jpg";
-import portrait from "../../../public/img/portrait.jpg";
+import adverting from "../../../public/img/finsura_adverting.jpg";
+import finsura from "../../../public/img/finsura.jpg";
+import notary from "../../../public/img/notary.jpg";
+import berny from "../../../public/img/berny.jpg";
+import poulet from "../../../public/img/poulet.jpg";
+import magasine from "../../../public/img/magasine.jpg";
+import media from "../../../public/img/media.jpg";
+import webdesign from "../../../public/img/webdesign.jpg";
+import app from "../../../public/img/app.jpg";
+import emagasine from "../../../public/img/emagasine.jpg";
 import large from "../../../public/img/large.jpg";
-import small from "../../../public/img/small.jpg";
+import application from "../../../public/img/application.jpg";
 import home from "../../../public/img/home.jpg";
 import Link from "next/link";
 
@@ -15,131 +24,150 @@ const Galery = () => {
         </h1>
         <ul className="tableau">
           <li className="tab1">
-            <Link href="#" className="relative">
-              <Image src={picture} className=" h-full w-full object-cover" />
+            <Link
+              target="blank"
+              href="https://www.instagram.com/reel/Cw1-noyNiUb/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+              className="relative text-center"
+            >
+              <Image src={finsura} className=" h-full w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  E-Marketing presents: Finsura Ag's new funny campaign!
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab2">
-            <Link href="#" className="relative">
-              <Image src={portrait} className=" h-full w-full object-cover" />
+            <Link
+              target="blank"
+              href="https://www.instagram.com/reel/Cw7fKgbNd8k/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+              className="relative text-center"
+            >
+              <Image src={adverting} className=" h-full w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  Finsura Ag's new funny campaign!
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab3">
-            <Link href="#" className=" relative">
-              <Image src={picture} className=" h-full w-full object-cover" />
+            <Link
+              target="blank"
+              href="https://notary-virid.vercel.app/"
+              className=" relative text-center"
+            >
+              <Image src={notary} className=" h-full w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold  w-4/5">
+                  Website prototype for notary
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab4">
-            <Link href="#" className=" relative">
-              <Image src={picture} className=" h-full w-full object-cover" />
+            <Link href="#" className=" relative text-center">
+              <Image src={berny} className=" h-full w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  Flyers Corporate
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab5">
-            <Link href="#" className=" relative">
-              <Image src={picture} className=" h-full w-full object-cover" />
+            <Link href="#" className=" relative text-center">
+              <Image src={poulet} className=" h-full w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  Logotype
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab6">
-            <Link href="#" className="relative">
-              <Image src={picture} className=" h-full w-full object-cover" />
+            <Link href="#" className="relative text-center">
+              <Image src={magasine} className=" h-full w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  Magazine design
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab7">
-            <Link href="#" className=" relative">
+            <Link href="#" className=" relative text-center">
               <Image src={large} className=" h-full w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  Design Logotype for Hotel
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab8">
-            <Link href="#" className=" relative">
-              <Image src={small} className=" h-full w-full object-cover" />
+            <Link href="#" className=" relative text">
+              <Image
+                src={application}
+                className=" h-full w-full object-cover"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  Mobile app design
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab9">
-            <Link href="#" className=" relative">
+            <Link
+              target="blank"
+              href="https://medjio.me/"
+              className=" relative text-center"
+            >
               <Image src={home} className=" h-full w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  Design porfolio for Graphic designer
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab10">
-            <Link href="#" className=" relative">
-              <Image src={home} className=" h-full w-full object-cover" />
+            <Link href="#" className=" relative text-center">
+              <Image src={app} className=" h-full w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  App design
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab11">
-            <Link href="#" className=" relative">
-              <Image src={picture} className=" h-full w-full object-cover" />
+            <Link href="#" className=" relative text-center">
+              <Image src={media} className=" h-full w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  Social media post
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab12">
-            <Link href="#" className=" relative">
-              <Image src={picture} className=" w-full object-cover" />
+            <Link href="#" className=" relative text-center">
+              <Image src={webdesign} className=" w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  Webdesign for website
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab13">
-            <Link href="#" className=" relative">
-              <Image src={picture} className=" w-full object-cover" />
+            <Link href="#" className=" relative text-center">
+              <Image src={emagasine} className=" w-full object-cover" />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold">
-                  MyPlan and NFL
+                <span className="text-white text-xl font-inter font-bold w-4/5">
+                  Webdesign for website magasine
                 </span>
               </h3>
             </Link>
