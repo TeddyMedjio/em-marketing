@@ -34,9 +34,9 @@ const Galery = () => {
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
-                  E-Marketing presents: Finsura Ag&apos;s new funny campaign!
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+                  Finsura Ag&apos;s funny campaign!
                 </span>
               </h3>
             </Link>
@@ -52,8 +52,8 @@ const Galery = () => {
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Finsura Ag&apos;s new funny campaign!
                 </span>
               </h3>
@@ -70,8 +70,8 @@ const Galery = () => {
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold  w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Website prototype for notary
                 </span>
               </h3>
@@ -84,8 +84,8 @@ const Galery = () => {
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Flyers Corporate
                 </span>
               </h3>
@@ -98,8 +98,8 @@ const Galery = () => {
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Logotype
                 </span>
               </h3>
@@ -112,8 +112,8 @@ const Galery = () => {
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Magazine design
                 </span>
               </h3>
@@ -126,22 +126,22 @@ const Galery = () => {
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Design Logotype for Hotel
                 </span>
               </h3>
             </Link>
           </li>
           <li className="tab8">
-            <Link href="#" className=" relative text">
+            <Link href="#" className=" relative text-center">
               <Image
                 src={application}
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Mobile app design
                 </span>
               </h3>
@@ -158,8 +158,8 @@ const Galery = () => {
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Design porfolio for Graphic designer
                 </span>
               </h3>
@@ -172,8 +172,8 @@ const Galery = () => {
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   App design
                 </span>
               </h3>
@@ -186,8 +186,8 @@ const Galery = () => {
                 className=" h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Social media post
                 </span>
               </h3>
@@ -200,8 +200,8 @@ const Galery = () => {
                 className=" w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Webdesign for website
                 </span>
               </h3>
@@ -214,8 +214,8 @@ const Galery = () => {
                 className=" w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5">
+              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
+                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
                   Webdesign for website magasine
                 </span>
               </h3>

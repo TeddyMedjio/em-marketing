@@ -1,6 +1,6 @@
 const Header_Work = () => {
   return (
-    <div className="relative h-screen mx-auto bg-[#1B2D91] ">
+    <div className="relative h-screen mx-auto bg-[#1B2D91]  ">
       <video
         autoPlay
         loop
@@ -28,7 +28,7 @@ const Header_Work = () => {
           bold thinking, fearless creativity .
         </h1>
       </div>
-      <h1 className=" pl-5 text-white text-[130px] leading-[130px] lg:text-[250px] lg:leading-[200px] uppercase absolute bottom-10">
+      <h1 className=" pl-5 text-white text-[120px] leading-[120px]  lg:text-[250px] lg:leading-[200px] uppercase absolute bottom-10">
         Make you move
       </h1>
     </div>
