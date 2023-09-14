@@ -29,7 +29,11 @@ const Galery = () => {
               href="https://www.instagram.com/reel/Cw1-noyNiUb/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
               className="relative text-center"
             >
-              <Image src={finsura} className=" h-full w-full object-cover" />
+              <Image
+                src={finsura}
+                className=" h-full w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   E-Marketing presents: Finsura Ag's new funny campaign!
@@ -43,7 +47,11 @@ const Galery = () => {
               href="https://www.instagram.com/reel/Cw7fKgbNd8k/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
               className="relative text-center"
             >
-              <Image src={adverting} className=" h-full w-full object-cover" />
+              <Image
+                src={adverting}
+                className=" h-full w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   Finsura Ag's new funny campaign!
@@ -57,7 +65,11 @@ const Galery = () => {
               href="https://notary-virid.vercel.app/"
               className=" relative text-center"
             >
-              <Image src={notary} className=" h-full w-full object-cover" />
+              <Image
+                src={notary}
+                className=" h-full w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold  w-4/5">
                   Website prototype for notary
@@ -67,7 +79,11 @@ const Galery = () => {
           </li>
           <li className="tab4">
             <Link href="#" className=" relative text-center">
-              <Image src={berny} className=" h-full w-full object-cover" />
+              <Image
+                src={berny}
+                className=" h-full w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   Flyers Corporate
@@ -77,7 +93,11 @@ const Galery = () => {
           </li>
           <li className="tab5">
             <Link href="#" className=" relative text-center">
-              <Image src={poulet} className=" h-full w-full object-cover" />
+              <Image
+                src={poulet}
+                className=" h-full w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   Logotype
@@ -87,7 +107,11 @@ const Galery = () => {
           </li>
           <li className="tab6">
             <Link href="#" className="relative text-center">
-              <Image src={magasine} className=" h-full w-full object-cover" />
+              <Image
+                src={magasine}
+                className=" h-full w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   Magazine design
@@ -97,7 +121,11 @@ const Galery = () => {
           </li>
           <li className="tab7">
             <Link href="#" className=" relative text-center">
-              <Image src={large} className=" h-full w-full object-cover" />
+              <Image
+                src={large}
+                className=" h-full w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   Design Logotype for Hotel
@@ -110,6 +138,7 @@ const Galery = () => {
               <Image
                 src={application}
                 className=" h-full w-full object-cover"
+                alt="picture"
               />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
@@ -124,7 +153,11 @@ const Galery = () => {
               href="https://medjio.me/"
               className=" relative text-center"
             >
-              <Image src={home} className=" h-full w-full object-cover" />
+              <Image
+                src={home}
+                className=" h-full w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   Design porfolio for Graphic designer
@@ -134,7 +167,11 @@ const Galery = () => {
           </li>
           <li className="tab10">
             <Link href="#" className=" relative text-center">
-              <Image src={app} className=" h-full w-full object-cover" />
+              <Image
+                src={app}
+                className=" h-full w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   App design
@@ -144,7 +181,11 @@ const Galery = () => {
           </li>
           <li className="tab11">
             <Link href="#" className=" relative text-center">
-              <Image src={media} className=" h-full w-full object-cover" />
+              <Image
+                src={media}
+                className=" h-full w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   Social media post
@@ -154,7 +195,11 @@ const Galery = () => {
           </li>
           <li className="tab12">
             <Link href="#" className=" relative text-center">
-              <Image src={webdesign} className=" w-full object-cover" />
+              <Image
+                src={webdesign}
+                className=" w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   Webdesign for website
@@ -164,7 +209,11 @@ const Galery = () => {
           </li>
           <li className="tab13">
             <Link href="#" className=" relative text-center">
-              <Image src={emagasine} className=" w-full object-cover" />
+              <Image
+                src={emagasine}
+                className=" w-full object-cover"
+                alt="picture"
+              />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
                   Webdesign for website magasine
