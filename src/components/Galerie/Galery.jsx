@@ -36,7 +36,7 @@ const Galery = () => {
               />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
-                  E-Marketing presents: Finsura Ag's new funny campaign!
+                  E-Marketing presents: Finsura Ag&apos;s new funny campaign!
                 </span>
               </h3>
             </Link>
@@ -54,7 +54,7 @@ const Galery = () => {
               />
               <h3 className=" opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 flex items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
-                  Finsura Ag's new funny campaign!
+                  Finsura Ag&apos;s new funny campaign!
                 </span>
               </h3>
             </Link>
