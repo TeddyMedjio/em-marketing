@@ -31,15 +31,18 @@ const Galery = () => {
             >
               <Image
                 src={finsura}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
-                  Finsura Ag&apos;s funny campaign!
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5 ">
+                  E-Marketing presents: Finsura Ag&apos;s new funny campaign!
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">
+              E-Marketing presents: Finsura Ag&apos;s new funny campaign!
+            </h3>
           </li>
           <li className="tab2">
             <Link
@@ -49,15 +52,18 @@ const Galery = () => {
             >
               <Image
                 src={adverting}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   Finsura Ag&apos;s new funny campaign!
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">
+              Finsura Ag&apos;s new funny campaign!
+            </h3>
           </li>
           <li className="tab3">
             <Link
@@ -67,85 +73,95 @@ const Galery = () => {
             >
               <Image
                 src={notary}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold  w-4/5">
                   Website prototype for notary
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">
+              Website prototype for notary
+            </h3>
           </li>
           <li className="tab4">
             <Link href="#" className=" relative text-center">
               <Image
                 src={berny}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   Flyers Corporate
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">Flyers Corporate</h3>
           </li>
           <li className="tab5">
             <Link href="#" className=" relative text-center">
               <Image
                 src={poulet}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   Logotype
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">Logotype</h3>
           </li>
           <li className="tab6">
             <Link href="#" className="relative text-center">
               <Image
                 src={magasine}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   Magazine design
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">Magazine design</h3>
           </li>
           <li className="tab7">
             <Link href="#" className=" relative text-center">
               <Image
                 src={large}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   Design Logotype for Hotel
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">
+              Design Logotype for Hotel
+            </h3>
           </li>
           <li className="tab8">
             <Link href="#" className=" relative text-center">
               <Image
                 src={application}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   Mobile app design
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">Mobile app design</h3>
           </li>
           <li className="tab9">
             <Link
@@ -155,43 +171,48 @@ const Galery = () => {
             >
               <Image
                 src={home}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   Design porfolio for Graphic designer
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">
+              Design porfolio for Graphic designer
+            </h3>
           </li>
           <li className="tab10">
             <Link href="#" className=" relative text-center">
               <Image
                 src={app}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   App design
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">App design</h3>
           </li>
           <li className="tab11">
             <Link href="#" className=" relative text-center">
               <Image
                 src={media}
-                className=" h-full w-full object-cover"
+                className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   Social media post
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">Social media post</h3>
           </li>
           <li className="tab12">
             <Link href="#" className=" relative text-center">
@@ -200,12 +221,15 @@ const Galery = () => {
                 className=" w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   Webdesign for website
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">
+              Webdesign for website
+            </h3>
           </li>
           <li className="tab13">
             <Link href="#" className=" relative text-center">
@@ -214,12 +238,15 @@ const Galery = () => {
                 className=" w-full object-cover"
                 alt="picture"
               />
-              <h3 className=" bg-[#189332] bottom-0 lg:opacity-0 lg:hover:opacity-100 absolute lg:top-0 lg:hover:bg-[#189332] lg:h-full w-full transition-all duration-300 flex items-center justify-center">
-                <span className="text-white lg:text-xl font-inter lg:font-bold w-4/5">
+              <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
+                <span className="text-white text-xl font-inter font-bold w-4/5">
                   Webdesign for website magasine
                 </span>
               </h3>
             </Link>
+            <h3 className="lg:hidden text-xl font-inter">
+              Webdesign for website magasine
+            </h3>
           </li>
         </ul>
       </div>
