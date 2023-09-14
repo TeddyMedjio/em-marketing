@@ -18,7 +18,7 @@ const Header = () => {
       <div className="hidden lg:flex items-center absolute top-0 right-0 text-center ">
         <h1 className=" uppercase font-heading font-bold text-5xl mix-blend-exclusion text-white">
           <span>We design business</span> <br />
-          <span>and brands for a more</span> <br /> <span>human future</span>
+          <span>and brand for a more</span> <br /> <span>emotional future</span>
         </h1>
       </div>
       <video
