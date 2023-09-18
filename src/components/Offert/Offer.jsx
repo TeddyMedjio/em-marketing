@@ -1,4 +1,25 @@
 import Link from "next/link";
+import { motion } from "framer-motion";
+
+const container = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 0.05,
+      staggerChildren: 0.06,
+    },
+  },
+};
+
+const item = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+  },
+};
 
 const Offer = () => {
   return (
@@ -10,76 +31,130 @@ const Offer = () => {
         <span className=" font-bold font-heading text-5xl text-white">
           We offer expertise in:
         </span>
-        <ul className=" flex flex-wrap max-w-[780px] gap-5 my-24">
-          <li className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <Link href="/services">
+
+        <motion.ul
+          className=" container flex flex-wrap max-w-[780px] gap-5 my-24"
+          variants={container}
+        >
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl ">
                 Website Creation
               </span>
             </Link>
-          </li>
-          <li className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <Link href="/services">
+          </motion.li>
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl">
                 Graphic & 3D Design
               </span>
             </Link>
-          </li>
-          <li className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <Link href="/services">
+          </motion.li>
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl">
                 Social Media Page Administration
               </span>
             </Link>
-          </li>
-          <li className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <Link href="/services">
+          </motion.li>
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl">
                 Swiss Influencer Cyrille David
               </span>
             </Link>
-          </li>
-          <li className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <Link href="/services">
+          </motion.li>
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl">
                 SEO Marketing
               </span>
             </Link>
-          </li>
-          <li className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <Link href="/services">
+          </motion.li>
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl">Animation</span>
             </Link>
-          </li>
-          <li className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <Link href="/services">
+          </motion.li>
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl">
                 Video Shooting & Editing
               </span>
             </Link>
-          </li>
-          <li className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <Link href="/services">
+          </motion.li>
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl">
                 Event Marketing Promotions
               </span>
             </Link>
-          </li>
-          <li className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <Link href="/services">
+          </motion.li>
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl">
                 Web & App design
               </span>
             </Link>
-          </li>
-          <li className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <Link href="/services">
+          </motion.li>
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl">
                 Company Jingle Creation
               </span>
             </Link>
-          </li>
-        </ul>
+          </motion.li>
+        </motion.ul>
       </div>
     </div>
   );

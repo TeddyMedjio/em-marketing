@@ -1,3 +1,4 @@
+import transition from "@/transition";
 import Footer from "@/components/Footer/Footer";
 import Header_Offer from "@/components/Header_Offer/Header_Offer";
 import Header_Services from "@/components/Header_Services/Header_Services";
@@ -16,4 +17,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default transition(services);

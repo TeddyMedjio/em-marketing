@@ -1,5 +1,5 @@
 import Image from "next/image";
-import picture from "../../../public/img/picture.jpg";
+import { motion } from "framer-motion";
 import adverting from "../../../public/img/finsura_adverting.jpg";
 import finsura from "../../../public/img/finsura.jpg";
 import notary from "../../../public/img/notary.jpg";
@@ -15,15 +15,40 @@ import application from "../../../public/img/application.jpg";
 import home from "../../../public/img/home.jpg";
 import Link from "next/link";
 
+const container = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 50,
+      staggerChildren: 20,
+    },
+  },
+};
+
+const item = {
+  hidden: { y: 80, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+  },
+};
+
 const Galery = () => {
   return (
     <div className="bg-white">
-      <div className=" mx-auto max-w-[90rem] relative py-24 flex flex-col items-center justify-center px-3">
+      <div className="mx-auto max-w-[90rem] relative py-24 flex flex-col items-center justify-center px-3">
         <h1 className=" font-bold text-center font-heading text-5xl text-black mb-24">
           Our Work
         </h1>
-        <ul className="tableau">
-          <li className="tab1">
+        <motion.ul className="container tableau" variants={container}>
+          <motion.li
+            className="tab1"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link
               target="blank"
               href="https://www.instagram.com/reel/Cw1-noyNiUb/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
@@ -43,8 +68,13 @@ const Galery = () => {
             <h3 className="lg:hidden text-xl font-inter">
               E-Marketing presents: Finsura Ag&apos;s new funny campaign!
             </h3>
-          </li>
-          <li className="tab2">
+          </motion.li>
+          <motion.li
+            className="tab2"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link
               target="blank"
               href="https://www.instagram.com/reel/Cw7fKgbNd8k/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
@@ -64,8 +94,13 @@ const Galery = () => {
             <h3 className="lg:hidden text-xl font-inter">
               Finsura Ag&apos;s new funny campaign!
             </h3>
-          </li>
-          <li className="tab3">
+          </motion.li>
+          <motion.li
+            className="tab3"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link
               target="blank"
               href="https://notary-virid.vercel.app/"
@@ -85,8 +120,13 @@ const Galery = () => {
             <h3 className="lg:hidden text-xl font-inter">
               Website prototype for notary
             </h3>
-          </li>
-          <li className="tab4">
+          </motion.li>
+          <motion.li
+            className="tab4"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link href="#" className=" relative text-center">
               <Image
                 src={berny}
@@ -100,8 +140,13 @@ const Galery = () => {
               </h3>
             </Link>
             <h3 className="lg:hidden text-xl font-inter">Flyers Corporate</h3>
-          </li>
-          <li className="tab5">
+          </motion.li>
+          <motion.li
+            className="tab5"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link href="#" className=" relative text-center">
               <Image
                 src={poulet}
@@ -115,8 +160,13 @@ const Galery = () => {
               </h3>
             </Link>
             <h3 className="lg:hidden text-xl font-inter">Logotype</h3>
-          </li>
-          <li className="tab6">
+          </motion.li>
+          <motion.li
+            className="tab6"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link href="#" className="relative text-center">
               <Image
                 src={magasine}
@@ -130,8 +180,13 @@ const Galery = () => {
               </h3>
             </Link>
             <h3 className="lg:hidden text-xl font-inter">Magazine design</h3>
-          </li>
-          <li className="tab7">
+          </motion.li>
+          <motion.li
+            className="tab7"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link href="#" className=" relative text-center">
               <Image
                 src={large}
@@ -147,8 +202,13 @@ const Galery = () => {
             <h3 className="lg:hidden text-xl font-inter">
               Design Logotype for Hotel
             </h3>
-          </li>
-          <li className="tab8">
+          </motion.li>
+          <motion.li
+            className="tab8"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link href="#" className=" relative text-center">
               <Image
                 src={application}
@@ -162,8 +222,13 @@ const Galery = () => {
               </h3>
             </Link>
             <h3 className="lg:hidden text-xl font-inter">Mobile app design</h3>
-          </li>
-          <li className="tab9">
+          </motion.li>
+          <motion.li
+            className="tab9"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link
               target="blank"
               href="https://medjio.me/"
@@ -183,8 +248,13 @@ const Galery = () => {
             <h3 className="lg:hidden text-xl font-inter">
               Design porfolio for Graphic designer
             </h3>
-          </li>
-          <li className="tab10">
+          </motion.li>
+          <motion.li
+            className="tab10"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link href="#" className=" relative text-center">
               <Image
                 src={app}
@@ -198,8 +268,13 @@ const Galery = () => {
               </h3>
             </Link>
             <h3 className="lg:hidden text-xl font-inter">App design</h3>
-          </li>
-          <li className="tab11">
+          </motion.li>
+          <motion.li
+            className="tab11"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link href="#" className=" relative text-center">
               <Image
                 src={media}
@@ -213,8 +288,13 @@ const Galery = () => {
               </h3>
             </Link>
             <h3 className="lg:hidden text-xl font-inter">Social media post</h3>
-          </li>
-          <li className="tab12">
+          </motion.li>
+          <motion.li
+            className="tab12"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link href="#" className=" relative text-center">
               <Image
                 src={webdesign}
@@ -230,8 +310,13 @@ const Galery = () => {
             <h3 className="lg:hidden text-xl font-inter">
               Webdesign for website
             </h3>
-          </li>
-          <li className="tab13">
+          </motion.li>
+          <motion.li
+            className="tab13"
+            initial="hidden"
+            whileInView="visible"
+            variants={item}
+          >
             <Link href="#" className=" relative text-center">
               <Image
                 src={emagasine}
@@ -247,8 +332,8 @@ const Galery = () => {
             <h3 className="lg:hidden text-xl font-inter">
               Webdesign for website magasine
             </h3>
-          </li>
-        </ul>
+          </motion.li>
+        </motion.ul>
       </div>
     </div>
   );

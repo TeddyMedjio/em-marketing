@@ -1,3 +1,4 @@
+import transition from "@/transition";
 import Footer from "@/components/Footer/Footer";
 import Galery from "@/components/Galerie/Galery";
 import Header_Work from "@/components/Header_Work/Header_Work";
@@ -17,4 +18,4 @@ const work = () => {
   );
 };
 
-export default work;
+export default transition(work);

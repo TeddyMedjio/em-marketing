@@ -1,18 +1,46 @@
-import React from "react";
+import { motion } from "framer-motion";
+
+const container = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 0.05,
+      staggerChildren: 0.06,
+    },
+  },
+};
+
+const item = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+  },
+};
 
 const Header_Offer = () => {
   return (
     <div className="backgound">
-      <div
-        id="ofer"
-        className="flex items-center justify-center flex-col pt-24 px-5"
-      >
+      <div className="flex items-center justify-center flex-col pt-24 px-5">
         <h1 className=" font-bold font-heading text-5xl text-white">
           We offer expertise in:
         </h1>
-        <div className=" flex flex-wrap max-w-[780px] gap-5 my-24">
-          <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
-            <h3 className=" font-inter font-semibold text-white text-xl ">
+        <motion.div
+          className=" container flex flex-wrap max-w-[780px] gap-5 my-24"
+          variants={container}
+        >
+          <motion.div
+            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <h3
+              className=" font-inter font-semibold text-white text-xl "
+              variants={item}
+            >
               Website Creation
             </h3>
             <p className="text-white mt-5">
@@ -22,8 +50,13 @@ const Header_Offer = () => {
               performance. Leave a lasting impression on your visitors with a
               website that reflects your unique brand identity.
             </p>
-          </div>
-          <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
+          </motion.div>
+          <motion.div
+            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h3 className=" font-inter font-semibold text-white text-xl">
               Graphic & 3D Design
             </h3>
@@ -34,8 +67,13 @@ const Header_Offer = () => {
               your ideas into stunning 3D visuals, giving your brand a unique
               edge.
             </p>
-          </div>
-          <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
+          </motion.div>
+          <motion.div
+            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h3 className=" font-inter font-semibold text-white text-xl">
               Social Media Page Administration
             </h3>
@@ -45,8 +83,13 @@ const Header_Offer = () => {
               media pages, driving engagement, increasing brand awareness, and
               helping you stay ahead in the digital landscape.
             </p>
-          </div>
-          <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
+          </motion.div>
+          <motion.div
+            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h3 className=" font-inter font-semibold text-white text-xl">
               Swiss Influencer Cyrille David
             </h3>
@@ -57,8 +100,13 @@ const Header_Offer = () => {
               your brand message and connect with your target audience on a
               personal level.
             </p>
-          </div>
-          <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
+          </motion.div>
+          <motion.div
+            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h3 className=" font-inter font-semibold text-white text-xl">
               SEO Marketing
             </h3>
@@ -68,8 +116,13 @@ const Header_Offer = () => {
               and content, ensuring you rank higher in search engine results and
               attract valuable leads.
             </p>
-          </div>
-          <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
+          </motion.div>
+          <motion.div
+            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h3 className=" font-inter font-semibold text-white text-xl">
               Animation
             </h3>
@@ -79,8 +132,13 @@ const Header_Offer = () => {
               advertisements, our team will deliver visually striking animations
               that communicate your message effectively.
             </p>
-          </div>
-          <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
+          </motion.div>
+          <motion.div
+            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h3 className=" font-inter font-semibold text-white text-xl">
               Video Shooting & Editing
             </h3>
@@ -90,8 +148,13 @@ const Header_Offer = () => {
               you to bring your vision to life, creating compelling videos that
               engage and resonate with your target audience.
             </p>
-          </div>
-          <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
+          </motion.div>
+          <motion.div
+            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h3 className=" font-inter font-semibold text-white text-xl">
               Event Marketing Promotions
             </h3>
@@ -101,8 +164,13 @@ const Header_Offer = () => {
               driving attendance, and ensuring your brand stands out from the
               competition.
             </p>
-          </div>
-          <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
+          </motion.div>
+          <motion.div
+            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h3 className=" font-inter font-semibold text-white text-xl">
               Web & App design
             </h3>
@@ -110,8 +178,13 @@ const Header_Offer = () => {
               We drive deeper connections between your brand and your customers
               through human-centered design. UX and UI design.
             </p>
-          </div>
-          <div className="border-t-[1px] flex-1 basis-[250px] mb-10">
+          </motion.div>
+          <motion.div
+            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
             <h3 className=" font-inter font-semibold text-white text-xl">
               Company Jingle Creation
             </h3>
@@ -121,8 +194,8 @@ const Header_Offer = () => {
               essence of your brand, leaving a lasting impression on your
               audience.
             </p>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </div>
   );

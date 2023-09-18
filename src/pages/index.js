@@ -1,4 +1,5 @@
 import Head from "next/head";
+import transition from "@/transition";
 import Header from "@/components/Acceuil/Header";
 import Navbar from "@/components/Navbar/Navbar";
 import Offer from "@/components/Offert/Offer";
@@ -7,7 +8,7 @@ import About from "@/components/About/About";
 import Talk from "@/components/Talk/Talk";
 import Footer from "@/components/Footer/Footer";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
@@ -31,4 +32,6 @@ export default function Home() {
       </main>
     </>
   );
-}
+};
+
+export default transition(Home);
