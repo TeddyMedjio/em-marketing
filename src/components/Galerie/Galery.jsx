@@ -42,7 +42,10 @@ const Galery = () => {
         <h1 className=" font-bold text-center font-heading text-5xl text-black mb-24">
           Our Work
         </h1>
-        <motion.ul className="container tableau" variants={container}>
+        <motion.ul
+          className="container space-y-10 md:space-y-0 tableau"
+          variants={container}
+        >
           <motion.li
             className="tab1"
             initial="hidden"
@@ -65,7 +68,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter">
               E-Marketing presents: Finsura Ag&apos;s new funny campaign!
             </h3>
           </motion.li>
@@ -91,7 +94,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter">
               Finsura Ag&apos;s new funny campaign!
             </h3>
           </motion.li>
@@ -117,7 +120,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter">
               Website prototype for notary
             </h3>
           </motion.li>
@@ -139,7 +142,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">Flyers Corporate</h3>
+            <h3 className="md:hidden text-xl font-inter">Flyers Corporate</h3>
           </motion.li>
           <motion.li
             className="tab5"
@@ -159,7 +162,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">Logotype</h3>
+            <h3 className="md:hidden text-xl font-inter">Logotype</h3>
           </motion.li>
           <motion.li
             className="tab6"
@@ -179,7 +182,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">Magazine design</h3>
+            <h3 className="md:hidden text-xl font-inter">Magazine design</h3>
           </motion.li>
           <motion.li
             className="tab7"
@@ -199,7 +202,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter">
               Design Logotype for Hotel
             </h3>
           </motion.li>
@@ -221,7 +224,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">Mobile app design</h3>
+            <h3 className="md:hidden text-xl font-inter">Mobile app design</h3>
           </motion.li>
           <motion.li
             className="tab9"
@@ -245,7 +248,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter">
               Design porfolio for Graphic designer
             </h3>
           </motion.li>
@@ -267,7 +270,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">App design</h3>
+            <h3 className="md:hidden text-xl font-inter">App design</h3>
           </motion.li>
           <motion.li
             className="tab11"
@@ -287,7 +290,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">Social media post</h3>
+            <h3 className="md:hidden text-xl font-inter">Social media post</h3>
           </motion.li>
           <motion.li
             className="tab12"
@@ -307,7 +310,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter">
               Webdesign for website
             </h3>
           </motion.li>
@@ -329,7 +332,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="lg:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter">
               Webdesign for website magasine
             </h3>
           </motion.li>
