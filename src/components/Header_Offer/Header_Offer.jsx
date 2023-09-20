@@ -116,11 +116,14 @@ const Header_Offer = () => {
               your brand message and connect with your target audience on a
               personal level.
             </p>
-            {/* <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/reel/CwkItcDMY8z/?igshid=MmU2YjMzNjRlOQ=="
+            >
               <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
                 See Work
               </p>
-            </Link> */}
+            </Link>
           </motion.li>
           <motion.li
             className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"

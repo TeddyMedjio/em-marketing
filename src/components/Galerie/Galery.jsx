@@ -322,7 +322,10 @@ const Galery = () => {
             whileInView="visible"
             variants={item}
           >
-            <Link href="#">
+            <Link
+              target="blank"
+              href="https://soundcloud.com/cyrille_david/jingle-d-b-style-for-our?ref=clipboard&p=a&c=1&si=522a40843446447cbe8ba9bc553fa352&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            >
               <Image
                 src={emagasine}
                 className=" w-full object-cover"
@@ -330,12 +333,12 @@ const Galery = () => {
               />
               <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
-                  Webdesign for website magasine
+                  Company Jingle Creation
                 </span>
               </h3>
             </Link>
             <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
-              Webdesign for website magasine
+              Company Jingle Creation
             </h3>
           </motion.li>
         </motion.ul>
