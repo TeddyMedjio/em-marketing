@@ -47,7 +47,7 @@ const Galery = () => {
           variants={container}
         >
           <motion.li
-            className="tab1"
+            className="tab1 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
@@ -55,7 +55,6 @@ const Galery = () => {
             <Link
               target="blank"
               href="https://www.instagram.com/reel/Cw1-noyNiUb/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
-              className="relative text-center"
             >
               <Image
                 src={finsura}
@@ -73,7 +72,7 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab2"
+            className="tab2 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
@@ -81,7 +80,6 @@ const Galery = () => {
             <Link
               target="blank"
               href="https://www.instagram.com/reel/Cw7fKgbNd8k/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
-              className="relative text-center"
             >
               <Image
                 src={adverting}
@@ -99,16 +97,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab3"
+            className="tab3 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link
-              target="blank"
-              href="https://notary-virid.vercel.app/"
-              className=" relative text-center"
-            >
+            <Link target="blank" href="https://notary-virid.vercel.app/">
               <Image
                 src={notary}
                 className=" lg:h-full w-full object-cover"
@@ -125,12 +119,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab4"
+            className="tab4 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link href="#" className=" relative text-center">
+            <Link href="#">
               <Image
                 src={berny}
                 className=" lg:h-full w-full object-cover"
@@ -147,12 +141,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab5"
+            className="tab5 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link href="#" className=" relative text-center">
+            <Link href="#">
               <Image
                 src={poulet}
                 className=" lg:h-full w-full object-cover"
@@ -169,12 +163,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab6"
+            className="tab6 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link href="#" className="relative text-center">
+            <Link href="#">
               <Image
                 src={magasine}
                 className=" lg:h-full w-full object-cover"
@@ -191,12 +185,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab7"
+            className="tab7 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link href="#" className=" relative text-center">
+            <Link href="#">
               <Image
                 src={large}
                 className=" lg:h-full w-full object-cover"
@@ -213,12 +207,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab8"
+            className="tab8 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link href="#" className=" relative text-center">
+            <Link href="#">
               <Image
                 src={application}
                 className=" lg:h-full w-full object-cover"
@@ -235,16 +229,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab9"
+            className="tab9 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link
-              target="blank"
-              href="https://medjio.me/"
-              className=" relative text-center"
-            >
+            <Link target="blank" href="https://medjio.me/">
               <Image
                 src={home}
                 className=" lg:h-full w-full object-cover"
@@ -261,12 +251,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab10"
+            className="tab10 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link href="#" className=" relative text-center">
+            <Link href="#">
               <Image
                 src={app}
                 className=" lg:h-full w-full object-cover"
@@ -283,12 +273,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab11"
+            className="tab11 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link href="#" className=" relative text-center">
+            <Link href="#">
               <Image
                 src={media}
                 className=" lg:h-full w-full object-cover"
@@ -305,12 +295,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab12"
+            className="tab12 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link href="#" className=" relative text-center">
+            <Link href="#">
               <Image
                 src={webdesign}
                 className=" w-full object-cover"
@@ -327,12 +317,12 @@ const Galery = () => {
             </h3>
           </motion.li>
           <motion.li
-            className="tab13"
+            className="tab13 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link href="#" className=" relative text-center">
+            <Link href="#">
               <Image
                 src={emagasine}
                 className=" w-full object-cover"
