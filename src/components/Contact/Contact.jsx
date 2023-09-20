@@ -56,7 +56,7 @@ const Contact = () => {
         <h1 className="font-bold uppercase text-6xl py-20">contact</h1>
         <div className="flex items-center justify-between lg:justify-normal">
           <h3 className=" uppercase text-[#189332] font-bold leading-6 text-xl">
-            cyrille david <br /> kapoua checkem <br />
+            cyrille david <br />
             <span className="text-black font-normal">ceo</span>
           </h3>
           <Image src={profil} height="350" alt="image de profil de cyrille" />

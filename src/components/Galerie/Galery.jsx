@@ -63,12 +63,12 @@ const Galery = () => {
                 alt="picture"
               />
               <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
-                <span className="text-white text-xl font-inter font-bold w-4/5 ">
+                <span className="text-white text-xl font-inter font-bold w-4/5  ">
                   E-Marketing presents: Finsura Ag&apos;s new funny campaign!
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
               E-Marketing presents: Finsura Ag&apos;s new funny campaign!
             </h3>
           </motion.li>
@@ -94,7 +94,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
               Finsura Ag&apos;s new funny campaign!
             </h3>
           </motion.li>
@@ -120,7 +120,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
               Website prototype for notary
             </h3>
           </motion.li>
@@ -142,7 +142,9 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">Flyers Corporate</h3>
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
+              Flyers Corporate
+            </h3>
           </motion.li>
           <motion.li
             className="tab5"
@@ -162,7 +164,9 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">Logotype</h3>
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
+              Logotype
+            </h3>
           </motion.li>
           <motion.li
             className="tab6"
@@ -182,7 +186,9 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">Magazine design</h3>
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
+              Magazine design
+            </h3>
           </motion.li>
           <motion.li
             className="tab7"
@@ -202,7 +208,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
               Design Logotype for Hotel
             </h3>
           </motion.li>
@@ -224,7 +230,9 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">Mobile app design</h3>
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
+              Mobile app design
+            </h3>
           </motion.li>
           <motion.li
             className="tab9"
@@ -248,7 +256,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
               Design porfolio for Graphic designer
             </h3>
           </motion.li>
@@ -270,7 +278,9 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">App design</h3>
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
+              App design
+            </h3>
           </motion.li>
           <motion.li
             className="tab11"
@@ -290,7 +300,9 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">Social media post</h3>
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
+              Social media post
+            </h3>
           </motion.li>
           <motion.li
             className="tab12"
@@ -310,7 +322,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
               Webdesign for website
             </h3>
           </motion.li>
@@ -332,7 +344,7 @@ const Galery = () => {
                 </span>
               </h3>
             </Link>
-            <h3 className="md:hidden text-xl font-inter">
+            <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
               Webdesign for website magasine
             </h3>
           </motion.li>

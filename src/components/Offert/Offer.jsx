@@ -42,7 +42,7 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="/services" variants={item}>
+            <Link href="https://notary-virid.vercel.app/" variants={item}>
               <span className=" font-inter text-white text-xl ">
                 Website Creation
               </span>
@@ -80,7 +80,7 @@ const Offer = () => {
           >
             <Link href="/services" variants={item}>
               <span className=" font-inter text-white text-xl">
-                Swiss Influencer Cyrille David
+                Influencer Campaigns with Swiss Influencer Cyrille David
               </span>
             </Link>
           </motion.li>

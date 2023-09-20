@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },
@@ -27,12 +28,12 @@ const Header_Offer = () => {
         <h1 className=" font-bold font-heading text-5xl text-white">
           We offer expertise in:
         </h1>
-        <motion.div
+        <motion.ul
           className=" container flex flex-wrap max-w-[780px] gap-5 my-24"
           variants={container}
         >
-          <motion.div
-            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+          <motion.li
+            className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
             variants={container}
             initial="hidden"
             whileInView="visible"
@@ -50,9 +51,14 @@ const Header_Offer = () => {
               performance. Leave a lasting impression on your visitors with a
               website that reflects your unique brand identity.
             </p>
-          </motion.div>
-          <motion.div
-            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            <Link target="blank" href="https://notary-virid.vercel.app/">
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link>
+          </motion.li>
+          <motion.li
+            className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
             variants={container}
             initial="hidden"
             whileInView="visible"
@@ -67,9 +73,14 @@ const Header_Offer = () => {
               your ideas into stunning 3D visuals, giving your brand a unique
               edge.
             </p>
-          </motion.div>
-          <motion.div
-            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            {/* <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link> */}
+          </motion.li>
+          <motion.li
+            className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
             variants={container}
             initial="hidden"
             whileInView="visible"
@@ -83,15 +94,20 @@ const Header_Offer = () => {
               media pages, driving engagement, increasing brand awareness, and
               helping you stay ahead in the digital landscape.
             </p>
-          </motion.div>
-          <motion.div
-            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            {/* <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link> */}
+          </motion.li>
+          <motion.li
+            className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
             variants={container}
             initial="hidden"
             whileInView="visible"
           >
             <h3 className=" font-inter font-semibold text-white text-xl">
-              Swiss Influencer Cyrille David
+              Influencer Campaigns with Swiss Influencer Cyrille David
             </h3>
             <p className="text-white mt-5">
               Harness the power of influencer marketing with the incredible
@@ -100,9 +116,14 @@ const Header_Offer = () => {
               your brand message and connect with your target audience on a
               personal level.
             </p>
-          </motion.div>
-          <motion.div
-            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            {/* <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link> */}
+          </motion.li>
+          <motion.li
+            className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
             variants={container}
             initial="hidden"
             whileInView="visible"
@@ -116,9 +137,14 @@ const Header_Offer = () => {
               and content, ensuring you rank higher in search engine results and
               attract valuable leads.
             </p>
-          </motion.div>
-          <motion.div
-            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            {/* <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link> */}
+          </motion.li>
+          <motion.li
+            className="border-t-[1px] flex-1 basis-[250px] mb-20"
             variants={container}
             initial="hidden"
             whileInView="visible"
@@ -132,9 +158,17 @@ const Header_Offer = () => {
               advertisements, our team will deliver visually striking animations
               that communicate your message effectively.
             </p>
-          </motion.div>
-          <motion.div
-            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            <Link
+              target="blank"
+              href="https://www.instagram.com/reel/Cw7fKgbNd8k/?utm_source=ig_web_copy_link"
+            >
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link>
+          </motion.li>
+          <motion.li
+            className="border-t-[1px] flex-1 basis-[250px] mb-20"
             variants={container}
             initial="hidden"
             whileInView="visible"
@@ -148,9 +182,17 @@ const Header_Offer = () => {
               you to bring your vision to life, creating compelling videos that
               engage and resonate with your target audience.
             </p>
-          </motion.div>
-          <motion.div
-            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            <Link
+              target="blank"
+              href="https://youtu.be/XA2-AwsPFqk?si=cpKpS-1nZSoXBH3E"
+            >
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link>
+          </motion.li>
+          <motion.li
+            className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
             variants={container}
             initial="hidden"
             whileInView="visible"
@@ -164,9 +206,17 @@ const Header_Offer = () => {
               driving attendance, and ensuring your brand stands out from the
               competition.
             </p>
-          </motion.div>
+            <Link
+              target="blank"
+              href="https://youtu.be/L37lQeX237M?si=5sG9FLBe_sqQjjAK"
+            >
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link>
+          </motion.li>
           <motion.div
-            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+            className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
             variants={container}
             initial="hidden"
             whileInView="visible"
@@ -178,9 +228,14 @@ const Header_Offer = () => {
               We drive deeper connections between your brand and your customers
               through human-centered design. UX and UI design.
             </p>
+            {/* <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link> */}
           </motion.div>
-          <motion.div
-            className="border-t-[1px] flex-1 basis-[250px] mb-10"
+          <motion.li
+            className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
             variants={container}
             initial="hidden"
             whileInView="visible"
@@ -194,8 +249,13 @@ const Header_Offer = () => {
               essence of your brand, leaving a lasting impression on your
               audience.
             </p>
-          </motion.div>
-        </motion.div>
+            <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link>
+          </motion.li>
+        </motion.ul>
       </div>
     </div>
   );
