@@ -127,7 +127,10 @@ const Galery = () => {
             whileInView="visible"
             variants={item}
           >
-            <Link href="#">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/em.marketing.ch/"
+            >
               <Image
                 src={berny}
                 className=" lg:h-full w-full object-cover"
@@ -171,7 +174,7 @@ const Galery = () => {
             whileInView="visible"
             variants={item}
           >
-            <Link href="https://soundcloud.app.goo.gl/xcvSt">
+            <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
               <Image
                 src={emagasine}
                 className=" lg:h-full w-full object-cover"
@@ -193,7 +196,10 @@ const Galery = () => {
             whileInView="visible"
             variants={item}
           >
-            <Link href="https://www.instagram.com/p/CxdTWYTtGQ2/?igshid=MmU2YjMzNjRlOQ==">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/p/CxdTWYTtGQ2/"
+            >
               <Image
                 src={large}
                 className=" lg:h-full w-full object-cover"
@@ -215,7 +221,10 @@ const Galery = () => {
             whileInView="visible"
             variants={item}
           >
-            <Link href="https://www.instagram.com/p/CxdTWYTtGQ2/?igshid=MmU2YjMzNjRlOQ==">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/p/CxdZRIvt-E5/?igshid=MmU2YjMzNjRlOQ%3D%3D"
+            >
               <Image
                 src={application}
                 className=" lg:h-full w-full object-cover"

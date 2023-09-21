@@ -53,7 +53,7 @@ const Header_Offer = () => {
             </p>
             <Link
               target="blank"
-              href="https://www.instagram.com/em.marketing.ch/"
+              href="https://www.instagram.com/p/CxdZRIvt-E5/?igshid=MmU2YjMzNjRlOQ%3D%3D"
             >
               <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
                 See Work
@@ -245,7 +245,7 @@ const Header_Offer = () => {
             </p>
             <Link
               target="blank"
-              href="https://www.instagram.com/em.marketing.ch/"
+              href="https://www.instagram.com/p/CxdTWYTtGQ2/"
             >
               <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
                 See Work

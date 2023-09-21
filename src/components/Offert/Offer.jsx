@@ -43,7 +43,8 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
-              href="https://www.instagram.com/p/CxdTWYTtGQ2/?igshid=MmU2YjMzNjRlOQ=="
+              target="blank"
+              href="https://www.instagram.com/p/CxdZRIvt-E5/?igshid=MmU2YjMzNjRlOQ%3D%3D"
               variants={item}
             >
               <span className=" font-inter text-white text-xl ">
@@ -58,6 +59,7 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
+              target="blank"
               href="https://www.instagram.com/p/CxdIpiotBB2/?igshid=MmU2YjMzNjRlOQ=="
               variants={item}
             >
@@ -73,6 +75,7 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
+              target="blank"
               href="https://www.instagram.com/p/CxD7bparphk/?igshid=MmU2YjMzNjRlOQ=="
               variants={item}
             >
@@ -88,6 +91,7 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
+              target="blank"
               href="https://www.instagram.com/reel/CwkItcDMY8z/?igshid=MmU2YjMzNjRlOQ=="
               variants={item}
             >
@@ -103,6 +107,7 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
+              target="blank"
               href="https://www.instagram.com/em.marketing.ch/"
               variants={item}
             >
@@ -118,6 +123,7 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
+              target="blank"
               href="https://www.instagram.com/reel/Cw7fKgbNd8k/?utm_source=ig_web_copy_link"
               variants={item}
             >
@@ -131,6 +137,7 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
+              target="blank"
               href="https://youtu.be/XA2-AwsPFqk?si=cpKpS-1nZSoXBH3E"
               variants={item}
             >
@@ -146,6 +153,7 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
+              target="blank"
               href="https://youtu.be/L37lQeX237M?si=5sG9FLBe_sqQjjAK"
               variants={item}
             >
@@ -161,7 +169,8 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
-              href="https://www.instagram.com/p/CxdTWYTtGQ2/?igshid=MmU2YjMzNjRlOQ=="
+              target="blank"
+              href="https://www.instagram.com/p/CxdTWYTtGQ2/"
               variants={item}
             >
               <span className=" font-inter text-white text-xl">
@@ -175,7 +184,11 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="https://soundcloud.app.goo.gl/xcvSt" variants={item}>
+            <Link
+              target="blank"
+              href="https://soundcloud.app.goo.gl/xcvSt"
+              variants={item}
+            >
               <span className=" font-inter text-white text-xl">
                 Company Jingle Creation
               </span>
