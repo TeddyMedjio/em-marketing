@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
             human future together.
           </p>
 
-          <Link href="/about" className="flex items-center mt-10">
+          <Link target="blank" href="#" className="flex items-center mt-10">
             <p className="text-white text-sm font-semibold underline mr-1">
               Twitter
             </p>
@@ -33,7 +32,11 @@ const Footer = () => {
             </svg>
           </Link>
 
-          <Link href="/about" className="flex items-center mt-2">
+          <Link
+            target="blank"
+            href="https://www.instagram.com/em.marketing.ch/"
+            className="flex items-center mt-2"
+          >
             <p className="text-white text-sm font-semibold underline mr-1">
               Instagram
             </p>
@@ -54,7 +57,7 @@ const Footer = () => {
             </svg>
           </Link>
 
-          <Link href="/about" className="flex items-center mt-2">
+          <Link target="blank" href="#" className="flex items-center mt-2">
             <p className="text-white text-sm font-semibold underline mr-1">
               Linkedin
             </p>

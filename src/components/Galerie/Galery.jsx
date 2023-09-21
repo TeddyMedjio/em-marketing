@@ -102,7 +102,10 @@ const Galery = () => {
             whileInView="visible"
             variants={item}
           >
-            <Link target="blank" href="https://notary-virid.vercel.app/">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/p/CxdIpiotBB2/?igshid=MmU2YjMzNjRlOQ%3D%3D"
+            >
               <Image
                 src={notary}
                 className=" lg:h-full w-full object-cover"
@@ -110,12 +113,12 @@ const Galery = () => {
               />
               <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold  w-4/5">
-                  Website prototype for notary
+                  Graphic design
                 </span>
               </h3>
             </Link>
             <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
-              Website prototype for notary
+              Graphic design
             </h3>
           </motion.li>
           <motion.li
@@ -132,12 +135,12 @@ const Galery = () => {
               />
               <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
-                  Flyers Corporate
+                  SEO Marketing
                 </span>
               </h3>
             </Link>
             <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
-              Flyers Corporate
+              SEO Marketing
             </h3>
           </motion.li>
           <motion.li
@@ -170,21 +173,21 @@ const Galery = () => {
           >
             <Link href="#">
               <Image
-                src={magasine}
+                src={emagasine}
                 className=" lg:h-full w-full object-cover"
                 alt="picture"
               />
               <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
-                  Magazine design
+                  Company Jingle Creation
                 </span>
               </h3>
             </Link>
             <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
-              Magazine design
+              Company Jingle Creation
             </h3>
           </motion.li>
-          <motion.li
+          {/* <motion.li
             className="tab7 relative text-center"
             initial="hidden"
             whileInView="visible"
@@ -340,7 +343,7 @@ const Galery = () => {
             <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
               Company Jingle Creation
             </h3>
-          </motion.li>
+          </motion.li> */}
         </motion.ul>
       </div>
     </div>

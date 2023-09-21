@@ -51,7 +51,10 @@ const Header_Offer = () => {
               performance. Leave a lasting impression on your visitors with a
               website that reflects your unique brand identity.
             </p>
-            <Link target="blank" href="https://notary-virid.vercel.app/">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/em.marketing.ch/"
+            >
               <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
                 See Work
               </p>
@@ -73,11 +76,14 @@ const Header_Offer = () => {
               your ideas into stunning 3D visuals, giving your brand a unique
               edge.
             </p>
-            {/* <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/p/CxdIpiotBB2/?igshid=MmU2YjMzNjRlOQ=="
+            >
               <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
                 See Work
               </p>
-            </Link> */}
+            </Link>
           </motion.li>
           <motion.li
             className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
@@ -94,11 +100,14 @@ const Header_Offer = () => {
               media pages, driving engagement, increasing brand awareness, and
               helping you stay ahead in the digital landscape.
             </p>
-            {/* <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/p/CxD7bparphk/?igshid=MmU2YjMzNjRlOQ=="
+            >
               <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
                 See Work
               </p>
-            </Link> */}
+            </Link>
           </motion.li>
           <motion.li
             className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
@@ -140,11 +149,14 @@ const Header_Offer = () => {
               and content, ensuring you rank higher in search engine results and
               attract valuable leads.
             </p>
-            {/* <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/em.marketing.ch/"
+            >
               <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
                 See Work
               </p>
-            </Link> */}
+            </Link>
           </motion.li>
           <motion.li
             className="border-t-[1px] flex-1 basis-[250px] mb-20"
@@ -231,11 +243,14 @@ const Header_Offer = () => {
               We drive deeper connections between your brand and your customers
               through human-centered design. UX and UI design.
             </p>
-            {/* <Link target="blank" href="https://soundcloud.app.goo.gl/xcvSt">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/em.marketing.ch/"
+            >
               <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
                 See Work
               </p>
-            </Link> */}
+            </Link>
           </motion.div>
           <motion.li
             className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
