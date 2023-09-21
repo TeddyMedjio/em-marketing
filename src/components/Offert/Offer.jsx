@@ -43,7 +43,7 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
-              href="https://www.instagram.com/em.marketing.ch/"
+              href="https://www.instagram.com/p/CxdTWYTtGQ2/?igshid=MmU2YjMzNjRlOQ=="
               variants={item}
             >
               <span className=" font-inter text-white text-xl ">
@@ -161,7 +161,7 @@ const Offer = () => {
             whileInView="visible"
           >
             <Link
-              href="https://www.instagram.com/em.marketing.ch/"
+              href="https://www.instagram.com/p/CxdTWYTtGQ2/?igshid=MmU2YjMzNjRlOQ=="
               variants={item}
             >
               <span className=" font-inter text-white text-xl">
