@@ -63,12 +63,12 @@ const Galery = () => {
               />
               <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5  ">
-                  E-Marketing presents: Finsura Ag&apos;s new funny campaign!
+                  Advertising campaign
                 </span>
               </h3>
             </Link>
             <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
-              E-Marketing presents: Finsura Ag&apos;s new funny campaign!
+              Advertising campaign
             </h3>
           </motion.li>
           <motion.li
@@ -88,12 +88,12 @@ const Galery = () => {
               />
               <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
-                  Finsura Ag&apos;s new funny campaign!
+                  Influencer campaign
                 </span>
               </h3>
             </Link>
             <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
-              Finsura Ag&apos;s new funny campaign!
+              Influencer campaign
             </h3>
           </motion.li>
           <motion.li
