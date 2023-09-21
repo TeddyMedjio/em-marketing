@@ -57,7 +57,11 @@ const Footer = () => {
             </svg>
           </Link>
 
-          <Link target="blank" href="#" className="flex items-center mt-2">
+          <Link
+            target="blank"
+            href="https://www.linkedin.com/in/david42"
+            className="flex items-center mt-2"
+          >
             <p className="text-white text-sm font-semibold underline mr-1">
               Linkedin
             </p>
