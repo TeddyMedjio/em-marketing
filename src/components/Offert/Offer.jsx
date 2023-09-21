@@ -42,7 +42,10 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="https://notary-virid.vercel.app/" variants={item}>
+            <Link
+              href="https://www.instagram.com/em.marketing.ch/"
+              variants={item}
+            >
               <span className=" font-inter text-white text-xl ">
                 Website Creation
               </span>
@@ -54,7 +57,10 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="/services" variants={item}>
+            <Link
+              href="https://www.instagram.com/p/CxdIpiotBB2/?igshid=MmU2YjMzNjRlOQ=="
+              variants={item}
+            >
               <span className=" font-inter text-white text-xl">
                 Graphic & 3D Design
               </span>
@@ -66,7 +72,10 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="/services" variants={item}>
+            <Link
+              href="https://www.instagram.com/p/CxD7bparphk/?igshid=MmU2YjMzNjRlOQ=="
+              variants={item}
+            >
               <span className=" font-inter text-white text-xl">
                 Social Media Page Administration
               </span>
@@ -78,7 +87,10 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="/services" variants={item}>
+            <Link
+              href="https://www.instagram.com/reel/CwkItcDMY8z/?igshid=MmU2YjMzNjRlOQ=="
+              variants={item}
+            >
               <span className=" font-inter text-white text-xl">
                 Influencer Campaigns with Swiss Influencer Cyrille David
               </span>
@@ -90,7 +102,10 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="/services" variants={item}>
+            <Link
+              href="https://www.instagram.com/em.marketing.ch/"
+              variants={item}
+            >
               <span className=" font-inter text-white text-xl">
                 SEO Marketing
               </span>
@@ -102,7 +117,10 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="/services" variants={item}>
+            <Link
+              href="https://www.instagram.com/reel/Cw7fKgbNd8k/?utm_source=ig_web_copy_link"
+              variants={item}
+            >
               <span className=" font-inter text-white text-xl">Animation</span>
             </Link>
           </motion.li>
@@ -112,7 +130,10 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="/services" variants={item}>
+            <Link
+              href="https://youtu.be/XA2-AwsPFqk?si=cpKpS-1nZSoXBH3E"
+              variants={item}
+            >
               <span className=" font-inter text-white text-xl">
                 Video Shooting & Editing
               </span>
@@ -124,7 +145,10 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="/services" variants={item}>
+            <Link
+              href="https://youtu.be/L37lQeX237M?si=5sG9FLBe_sqQjjAK"
+              variants={item}
+            >
               <span className=" font-inter text-white text-xl">
                 Event Marketing Promotions
               </span>
@@ -136,7 +160,10 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="/services" variants={item}>
+            <Link
+              href="https://www.instagram.com/em.marketing.ch/"
+              variants={item}
+            >
               <span className=" font-inter text-white text-xl">
                 Web & App design
               </span>
@@ -148,7 +175,7 @@ const Offer = () => {
             initial="hidden"
             whileInView="visible"
           >
-            <Link href="/services" variants={item}>
+            <Link href="https://soundcloud.app.goo.gl/xcvSt" variants={item}>
               <span className=" font-inter text-white text-xl">
                 Company Jingle Creation
               </span>
