@@ -230,7 +230,7 @@ const Header_Offer = () => {
               </p>
             </Link>
           </motion.li>
-          <motion.div
+          <motion.li
             className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
             variants={container}
             initial="hidden"
@@ -251,7 +251,7 @@ const Header_Offer = () => {
                 See Work
               </p>
             </Link>
-          </motion.div>
+          </motion.li>
           <motion.li
             className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
             variants={container}
@@ -273,6 +273,38 @@ const Header_Offer = () => {
               </p>
             </Link>
           </motion.li>
+          <motion.li
+            className="border-t-[1px] flex-1 basis-[250px] mb-20 relative"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <h3 className=" font-inter font-semibold text-white text-xl">
+              Photo Shooting & Editing
+            </h3>
+            <p className="text-white mt-5">
+              Make a visual impact with professional- grade photography. Our
+              skilled photographers will capture your products, services, and
+              team in the best possible light, creating stunning visuals that
+              reflect your brand's authenticity and Enhance your visuals with
+              expert photo editing.
+            </p>
+            <Link
+              target="blank"
+              href="https://www.instagram.com/p/CxvDE3QIMuK/?igshid=MmU2YjMzNjRlOQ=="
+            >
+              <p className="bg-[#189332] text-white rounded font-semibold py-1 px-5 mt-5  absolute animate-pulse">
+                See Work
+              </p>
+            </Link>
+          </motion.li>
+
+          <motion.li
+            className="item  flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          ></motion.li>
         </motion.ul>
       </div>
     </div>

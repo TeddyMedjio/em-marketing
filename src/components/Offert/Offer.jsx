@@ -194,6 +194,28 @@ const Offer = () => {
               </span>
             </Link>
           </motion.li>
+          <motion.li
+            className="item border-t-[1px] flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <Link
+              target="blank"
+              href="https://www.instagram.com/p/CxvDE3QIMuK/?igshid=MmU2YjMzNjRlOQ=="
+              variants={item}
+            >
+              <span className=" font-inter text-white text-xl">
+                Photo Shooting & Editing
+              </span>
+            </Link>
+          </motion.li>
+          <motion.li
+            className="item  flex-1 basis-[250px] mb-10"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+          ></motion.li>
         </motion.ul>
       </div>
     </div>
