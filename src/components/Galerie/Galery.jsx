@@ -240,13 +240,16 @@ const Galery = () => {
               Website creation
             </h3>
           </motion.li>
-          {/* <motion.li
+          <motion.li
             className="tab9 relative text-center"
             initial="hidden"
             whileInView="visible"
             variants={item}
           >
-            <Link target="blank" href="https://medjio.me/">
+            <Link
+              target="blank"
+              href="https://www.instagram.com/p/CxvDE3QIMuK/?igshid=MmU2YjMzNjRlOQ=="
+            >
               <Image
                 src={home}
                 className=" lg:h-full w-full object-cover"
@@ -254,15 +257,15 @@ const Galery = () => {
               />
               <h3 className="hidden lg:flex opacity-0 hover:opacity-100 absolute top-0 hover:bg-[#189332] h-full w-full transition-all duration-300 items-center justify-center">
                 <span className="text-white text-xl font-inter font-bold w-4/5">
-                  Design porfolio for Graphic designer
+                  Photo Shooting & Editing
                 </span>
               </h3>
             </Link>
             <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
-              Design porfolio for Graphic designer
+              Photo Shooting & Editing
             </h3>
           </motion.li>
-          <motion.li
+          {/* <motion.li
             className="tab10 relative text-center"
             initial="hidden"
             whileInView="visible"
@@ -352,7 +355,7 @@ const Galery = () => {
             <h3 className="md:hidden text-xl font-inter bg-[#189332] text-white text-center py-3 font-semibold">
               Company Jingle Creation
             </h3>
-          </motion.li>  */}
+          </motion.li>   */}
         </motion.ul>
       </div>
     </div>
